@@ -90,7 +90,7 @@ div#links-container a img
 }
 div#links-container a span
 {
-  height: -webkit-fill-available;
+  height: 3rem;
   width: 100%;
   margin: 0;
   border: 0.125rem solid #eeeeee;
