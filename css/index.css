@@ -1,0 +1,106 @@
+h2
+{
+  width: 100vw;
+  height: fit-content;
+  font-size: 4rem;
+  border-top: 0.125rem solid #eeeeee;
+  border-bottom: 0.125rem solid #eeeeee;
+  backdrop-filter: blur(8px);
+  background-color: rgba(170, 170, 170, 50%);
+  mask-image: linear-gradient(90deg, transparent 0%, #ffffff 15%, #ffffff 85%, transparent 100%);
+}
+
+p
+{
+  font-size: 1.5rem;
+  width: 33vw;
+  background-color: #000000;
+  padding: 2.5vh 5vw 2.5vh 5vw;
+  border: 0.125rem solid #eeeeee;
+  margin: 0;
+}
+
+img
+{
+  width: calc(33vw + 10vw);
+  border: 0.125rem solid #eeeeee;
+  margin: 0;
+}
+
+h4
+{
+  width: 50vw;
+  height: fit-content;
+  font-size: 2.5rem;
+  border-top: 0.125rem solid #eeeeee;
+  border-bottom: 0.125rem solid #eeeeee;
+  backdrop-filter: blur(8px);
+  background-color: rgba(170, 170, 170, 50%);
+  mask-image: linear-gradient(90deg, transparent 0%, #ffffff 15%, #ffffff 85%, transparent 100%);
+}
+
+div#courses-container
+{
+  margin-top: 10vh;
+}
+div#courses-container ul
+{
+  font-size: 1.5rem;
+  width: fit-content;
+  margin: 0 auto;
+  text-align: left;
+}
+div#courses-container ul li
+{
+  margin: 1vh 0;
+  background: #000000;
+  border: 0.125rem solid #eeeeee;
+  padding: 0.5vw 1.25vw;
+}
+
+div#links-container
+{
+  display: flex;
+  flex-direction: column;
+  margin: 10vh 0 0 0;
+  padding-bottom: 15vh;
+  justify-content: start;
+  align-items: center;
+}
+div#links-container a
+{
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  justify-content: start;
+  align-items: center;
+  width: 50%;
+  overflow: auto hidden;
+  margin: 1vh 0;
+  transition: border-width 0.125s ease-in-out, background-color 0.125s ease-in-out;
+  backdrop-filter: blur(4px);
+  background: #000000;
+  border: 0 solid #eeeeee;
+}
+div#links-container a img
+{
+  aspect-ratio: 1/1;
+  height: 3rem;
+  width: unset;
+}
+div#links-container a span
+{
+  height: -webkit-fill-available;
+  width: 100%;
+  margin: 0;
+  border: 0.125rem solid #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 1.25vw;
+}
+div#links-container a:hover
+{
+  border-width: 0.25rem;
+  background-color: transparent;
+}
